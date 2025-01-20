@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Muema Mutuku - Data Scientist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007ACC;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #005A99;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            text-align: center;
+            padding: 20px;
+        }
+        .banner img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            background: #e0e0e0;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer a {
+            color: #007ACC;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peter Muema Mutuku</h1>
+        <p>Data Scientist | R & Python Programmer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="banner">
+        <img src="/mnt/data/eee.jpg" alt="Portfolio Banner">
+    </div>
+
+    <div class="content">
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Peter Muema Mutuku, a passionate data scientist with expertise in R and Python programming. I specialize in analyzing data, building predictive models, and creating data visualizations to uncover meaningful insights.</p>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>My Skills</h2>
+            <div class="skills">
+                <ul>
+                    <li>Data Analysis using R</li>
+                    <li>Machine Learning with Python</li>
+                    <li>Data Visualization (ggplot2, Matplotlib, Seaborn)</li>
+                    <li>Statistical Modeling</li>
+                    <li>Web Scraping</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:petermutuku2011@gmail.com">petermutuku2011@gmail.com</a></p>
+            <p>Phone: 0741631241</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Peter Muema Mutuku. Built with passion.</p>
+    </footer>
+</body>
+</html>
